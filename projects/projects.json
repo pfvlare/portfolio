@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Milky Movies",
+        "category": "mobile",
+        "image": "assets/images/milky-movies.png",
+        "description": "Catálogo de Filmes",
+        "live": "",
+        "code": "https://github.com/pfvlare/Milky-Movies"
+    },
+    {
+        "name": "Caça Sílabas",
+        "category": "game",
+        "image": "assets/images/caca-silabas.png",
+        "description": "Gamificação",
+        "live": "https://ca-a-s-labas.vercel.app/",
+        "code": "https://github.com/pfvlare/caca-silabas"
+    },
+    {
+        "name": "Portfólio",
+        "category": "portfolio",
+        "image": "assets/images/projects-screen.png",
+        "description": "Meu portfólio pessoal.",
+        "live": "",
+        "code": ""
+    },
+    {
+        "name": "To Do List",
+        "category": "web",
+        "image": "assets/images/todo-list.png",
+        "description": "Crud completo com C# e .NET",
+        "live": "https://front-end-react-to-do-com-jwt.vercel.app/",
+        "code": "https://github.com/pfvlare/Front-end-React---ToDo-com-JWT"
+    }
+]

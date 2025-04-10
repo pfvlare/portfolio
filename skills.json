@@ -1,0 +1,58 @@
+[
+    {
+        "name": "C#",
+        "icon": "https://img.icons8.com/color/48/c-sharp-logo.png"
+    },
+    {
+        "name": ".NET",
+        "icon": "https://img.icons8.com/color/48/dot-net.png"
+    },
+    {
+        "name": "NestJS",
+        "icon": "https://img.icons8.com/color/48/nestjs.png"
+    },
+    {
+        "name": "Next.js",
+        "icon": "https://img.icons8.com/color/48/nextjs.png"
+    },
+    {
+        "name": "JavaScript",
+        "icon": "https://img.icons8.com/color/48/javascript--v1.png"
+    },
+    {
+        "name": "TypeScript",
+        "icon": "https://img.icons8.com/color/48/typescript.png"
+    },
+    {
+        "name": "CSS3",
+        "icon": "https://img.icons8.com/color/48/css3.png"
+    },
+    {
+        "name": "HTML5",
+        "icon": "https://img.icons8.com/color/48/html-5--v1.png"
+    },
+    {
+        "name": "Styled Components",
+        "icon": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/external-styled-components-a-library-for-react-and-react-native-logo-shadow-tal-revivo.png"
+    },
+    {
+        "name": "Bootstrap",
+        "icon": "https://img.icons8.com/color/48/bootstrap.png"
+    },
+    {
+        "name": "Tailwind CSS",
+        "icon": "https://img.icons8.com/color/48/tailwind_css.png"
+    },
+    {
+        "name": "ReactJS",
+        "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png"
+    },
+    {
+        "name": "React Native",
+        "icon": "https://img.icons8.com/ultraviolet/48/react-native.png"
+    },
+    {
+        "name": "Expo",
+        "icon": "https://img.icons8.com/ios/48/expo.png"
+    }
+]
