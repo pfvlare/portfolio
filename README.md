@@ -1,13 +1,13 @@
 # 👩‍💻 Larissa Campos
 
-🎓 *Developer de Software | 23 anos*  
+🎓 *Developer Software | 23 anos*  
 💜 *Coração animado, mente geek e alma movida a café ☕*
 
 ---
 
 ## 💡 Sobre mim
 
-Sou a Larissa, uma desenvolvedora apaixonada por transformar ideias em interfaces vivas.  
+Muito prazer, sou Larissa Campos, desenvolvedora apaixonada por transformar ideias em interfaces vivas.  
 Atualmente estou no último semestre de **Análise e Desenvolvimento de Sistemas** pela Faculdade CCI, e atuo com foco no **Front-End**, mas com uma pegada Full-Stack sempre que posso!
 
 Acredito no poder do **código limpo**, do **design funcional** e claro, de um bom **café para resolver qualquer bug**.
@@ -35,7 +35,7 @@ Acredito no poder do **código limpo**, do **design funcional** e claro, de um b
 
 - [LinkedIn](https://www.linkedin.com/in/larecampos)  
 - [GitHub](https://github.com/pfvlare)  
-- E-mail: seuemail@exemplo.com
+- E-mail: larecampos.lc@gmail.com
 
 ---
 
