@@ -21,7 +21,7 @@ $(document).ready(function () {
 // Alteração do título ao mudar de aba
 document.addEventListener('visibilitychange', function () {
     if (document.visibilityState === "visible") {
-        document.title = "Projects | Portfolio Gabriela Cancello";
+        document.title = "Projects | Portfolio Larissa Campos";
         $("#favicon").attr("href", "");
     } else {
         document.title = "Come Back To Portfolio";

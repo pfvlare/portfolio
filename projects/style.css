@@ -13,7 +13,7 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 70%;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
@@ -21,6 +21,7 @@ html {
 body {
   background: #f7f7f7;
   font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
 }
 
 *::selection {
@@ -30,7 +31,7 @@ body {
 
 /* Scrollbar */
 html::-webkit-scrollbar {
-  width: 0.8rem;
+  width: 1rem;
 }
 html::-webkit-scrollbar-track {
   background: rgb(202, 235, 202);
@@ -48,31 +49,31 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.5rem 5%;
-  height: 6.5rem;
+  padding: 2rem 6%;
+  height: 7.5rem;
   background: #fff;
-  box-shadow: 0 1px 4px rgba(146, 176, 146, 0.3);
+  box-shadow: 0 2px 6px rgba(146, 176, 146, 0.3);
   z-index: 1000;
 }
 
 header .logo {
-  font-size: 2rem;
+  font-size: 2.6rem;
   font-weight: 800;
   color: #0b2e0e;
   display: flex;
   align-items: center;
 }
 header .logo i {
-  font-size: 2.5rem;
-  margin-right: 0.5rem;
+  font-size: 3rem;
+  margin-right: 0.8rem;
 }
 
 header .navbar {
   display: flex;
-  gap: 2rem;
+  gap: 3rem;
 }
 header .navbar a {
-  font-size: 1.6rem;
+  font-size: 1.9rem;
   font-weight: 600;
   color: #0b2e0d;
   transition: 0.3s;
@@ -80,13 +81,13 @@ header .navbar a {
 header .navbar a:hover,
 header .navbar a.active {
   color: #02e825;
-  border-bottom: 2px solid #02d91b;
-  padding-bottom: 0.3rem;
+  border-bottom: 3px solid #02d91b;
+  padding-bottom: 0.4rem;
 }
 
 /* Menu hambúrguer */
 #menu {
-  font-size: 3rem;
+  font-size: 3.4rem;
   cursor: pointer;
   color: rgb(24, 2, 63);
   display: none;
@@ -100,22 +101,22 @@ header .navbar a.active {
 
   header .navbar {
     position: fixed;
-    top: 6.5rem;
+    top: 7.5rem;
     right: -100%;
     width: 75%;
     height: 100%;
     flex-direction: column;
     background: #0c330e;
     align-items: center;
-    padding-top: 2rem;
+    padding-top: 3rem;
     transition: 0.3s;
   }
 
   header .navbar a {
     display: block;
     width: 100%;
-    padding: 1.5rem;
-    font-size: 2rem;
+    padding: 2rem;
+    font-size: 2.2rem;
     text-align: center;
     color: #fff;
   }
@@ -132,31 +133,34 @@ header .navbar a.active {
 /* Work Section */
 .work {
   background: linear-gradient(to bottom, #033309, #012e09);
-  margin-top: 6.5rem;
-  padding: 3rem 5%;
+  margin-top: 7.5rem;
+  padding: 4rem 6%;
   text-align: center;
 }
 
 .work h2 {
-  font-size: 3.5rem;
+  font-size: 4rem;
   color: #fff;
+  margin-bottom: 2rem;
 }
 
 .work .button-group {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1rem;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
 }
 
 .work .button-group .btn {
-  padding: 1rem 2rem;
+  padding: 1.4rem 2.5rem;
   background: transparent;
   color: #fff;
-  border: 1px solid #fff;
-  border-radius: 5px;
+  border: 2px solid #fff;
+  border-radius: 6px;
   cursor: pointer;
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 1.8rem;
 }
 
 .work .button-group .btn:hover,
@@ -169,14 +173,14 @@ header .navbar a.active {
 .work .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 .work .box {
-  border-radius: 5px;
-  box-shadow: 0 7px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  box-shadow: 0 8px 14px rgba(0, 0, 0, 0.3);
   overflow: hidden;
-  height: 30rem;
+  height: 32rem;
   background: #fff;
   position: relative;
 }
@@ -188,7 +192,7 @@ header .navbar a.active {
 }
 
 .work .box .content {
-  padding: 1.5rem;
+  padding: 2rem;
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -206,19 +210,20 @@ header .navbar a.active {
 }
 
 .work .desc p {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 
 .work .desc .btns {
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .work .desc .btns .btn {
-  padding: 1.2rem 2rem;
+  padding: 1.4rem 2.2rem;
   border-radius: 5px;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   color: #fff;
   background: #000;
   transition: 0.3s;
@@ -232,16 +237,17 @@ header .navbar a.active {
 .backbtn {
   display: flex;
   justify-content: center;
-  margin: 3rem 0;
+  margin: 4rem 0;
 }
 
 .backbtn .btn {
-  padding: 1.6rem 3rem;
+  padding: 1.8rem 3.2rem;
   border: 2px solid #fff;
   background: none;
   color: #fff;
   transition: 0.3s;
   font-weight: 600;
+  font-size: 1.8rem;
 }
 
 .backbtn .btn:hover {
@@ -254,8 +260,8 @@ header .navbar a.active {
   position: fixed;
   bottom: 2rem;
   right: 2rem;
-  padding: 1rem 1.5rem;
-  font-size: 2rem;
+  padding: 1.2rem 1.6rem;
+  font-size: 2.4rem;
   background: #ffae00;
   color: rgb(13, 0, 44);
   border-radius: 50%;
@@ -271,7 +277,7 @@ header .navbar a.active {
 /* Responsividade extra */
 @media (max-width: 768px) {
   html {
-    font-size: 55%;
+    font-size: 60%;
   }
 
   .work .button-group {
@@ -284,3 +290,4 @@ header .navbar a.active {
     grid-template-columns: 1fr;
   }
 }
+
