@@ -11,132 +11,196 @@
   text-transform: capitalize;
   transition: all 0.2s linear;
 }
+
 html {
   font-size: 62.5%;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
+
 body {
-  background: #0b0b0b;
+  background: #1a1a1a;
+  /* Preto mais suave */
   font-family: 'Baloo 2', cursive;
 }
 
 *::selection {
-  background: #7a00cc;
-  color: #fff;
+  background: #a64dff;
+  /* Roxo mais vibrante */
+  color: #f0f0f0;
+  /* Branco acinzentado */
 }
+
 html::-webkit-scrollbar {
   width: 0.8rem;
 }
+
 html::-webkit-scrollbar-track {
-  background: #1a1a1a;
+  background: #262626;
+  /* Cinza escuro */
 }
+
 html::-webkit-scrollbar-thumb {
-  background: #7a00cc;
+  background: #a64dff;
+  /* Roxo mais vibrante */
 }
 
 /* NAVBAR */
 header {
-  background-color: #0d0d0d;
-  box-shadow: 0 1px 4px rgba(150, 0, 255, 0.3);
+  background-color: #1c1c1c;
+  /* Preto um pouco mais claro */
+  box-shadow: 0 1px 4px rgba(166, 77, 255, 0.3);
+  /* Sombra roxa */
 }
+
 header .logo {
-  color: #e2d0ff;
+  color: #f0e6ff;
+  /* Lilás claro */
 }
+
 header .logo:hover {
-  color: #b96aff;
+  color: #d2aeff;
+  /* Lilás um pouco mais escuro */
 }
+
 header .navbar ul li a {
-  color: #c7b6ff;
+  color: #e0d1ff;
+  /* Lilás suave */
 }
+
 header .navbar ul li a.active,
 header .navbar ul li a:hover {
-  color: #c883ff;
-  border-bottom: 0.2rem solid #7a00cc;
+  color: #d8b4ff;
+  /* Lilás um pouco mais intenso */
+  border-bottom: 0.2rem solid #a64dff;
+  /* Barra inferior roxa */
 }
 
 /* HAMBURGER */
 #menu {
-  color: #c883ff;
+  color: #d8b4ff;
+  /* Lilás um pouco mais intenso */
 }
+
 header .navbar {
-  background-color: #1c0b2e;
+  background-color: #330066;
+  /* Roxo bem escuro */
 }
+
 header .navbar ul li a {
-  color: #e9d6ff;
+  color: #f3eaff;
+  /* Branco com toque de lilás */
 }
+
 header .navbar ul li a.active,
 header .navbar ul li a:hover {
-  border-bottom: 0.5rem solid #b96aff;
+  border-bottom: 0.5rem solid #d2aeff;
+  /* Barra inferior lilás */
 }
 
 /* 404 SECTION */
 .page_404 {
-  background: #131313;
+  background: #212121;
+  /* Cinza bem escuro */
 }
+
 .msg h3 {
-  color: #e7d3ff;
+  color: #f2e8ff;
+  /* Lilás bem claro */
 }
+
 .msg p {
-  color: #b98fff;
+  color: #d2b3ff;
+  /* Lilás suave */
 }
+
 .wrapper h1 {
-  color: #fff;
+  color: #f0f0f0;
+  /* Branco acinzentado */
 }
 
 /* BOTÃO VOLTAR */
 .backbtn .btn {
-  background: #7a00cc;
-  box-shadow: 0px 5px 15px rgba(122, 0, 204, 0.6);
+  background: #a64dff;
+  /* Roxo mais vibrante */
+  box-shadow: 0px 5px 15px rgba(166, 77, 255, 0.6);
+  /* Sombra roxa intensa */
 }
+
 .backbtn .btn:hover {
-  background: #5900a6;
+  background: #8c33ff;
+  /* Roxo um pouco mais escuro */
 }
+
 .backbtn .btn span {
   font-family: 'Baloo 2', cursive;
 }
 
 /* FOOTER */
 .footer {
-  background: #0a0a0a;
+  background: #171717;
+  /* Preto quase cinza */
 }
+
 .footer .box-container .box h3 {
-  color: #e9d6ff;
+  color: #f3eaff;
+  /* Branco com toque de lilás */
 }
+
 .footer .box-container .box p,
 .footer .box-container .box a {
-  color: #d5bfff;
+  color: #e0cfff;
+  /* Lilás bem suave */
 }
+
 .footer .box-container .box p i {
-  color: #c883ff;
+  color: #d8b4ff;
+  /* Lilás um pouco mais intenso */
 }
+
 .footer .box-container .box a:hover {
-  color: #c883ff;
+  color: #d8b4ff;
+  /* Lilás um pouco mais intenso */
 }
+
 .footer .box-container .box .share a {
-  background: #2a003f;
-  color: #e2d0ff;
-  box-shadow: 0px 4px 8px rgba(122, 0, 204, 0.3);
+  background: #4d0099;
+  /* Roxo escuro */
+  color: #f0e6ff;
+  /* Lilás claro */
+  box-shadow: 0px 4px 8px rgba(166, 77, 255, 0.3);
+  /* Sombra roxa */
 }
+
 .footer .box-container .box .share a:hover {
   background: transparent;
-  color: #b96aff;
-  border: 0.1rem solid #7a00cc;
+  color: #d2aeff;
+  /* Lilás um pouco mais escuro */
+  border: 0.1rem solid #a64dff;
+  /* Borda roxa */
 }
+
 .footer .credit {
-  color: #b8a3e6;
+  color: #d1bfe6;
+  /* Lilás acinzentado */
 }
+
 .footer .credit a {
-  color: #d88dff;
+  color: #e6aeff;
+  /* Lilás mais chamativo */
 }
+
 .footer .fa {
-  color: #ff61e6;
+  color: #ff99ff;
+  /* Rosa arroxeado */
 }
 
 /* SCROLL TOP */
 #scroll-top {
-  background: #c883ff;
-  color: #100015;
+  background: #d8b4ff;
+  /* Lilás um pouco mais intenso */
+  color: #26004d;
+  /* Roxo bem escuro */
 }
 
 /* FONTE RESPONSIVA E PADRÃO */
@@ -145,4 +209,3 @@ header .navbar ul li a:hover {
     font-size: 55%;
   }
 }
-

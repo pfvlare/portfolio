@@ -19,25 +19,32 @@ html {
 }
 
 body {
-  background: #f7f7f7;
+  background: #f0f0f0;
+  /* Cinza claro suave */
   font-family: "Poppins", sans-serif;
   font-size: 1.8rem;
 }
 
 *::selection {
-  background: #2ec733;
-  color: #fff;
+  background: #a020f0;
+  /* Roxo vibrante */
+  color: #f8f8f8;
+  /* Branco quase puro */
 }
 
 /* Scrollbar */
 html::-webkit-scrollbar {
   width: 1rem;
 }
+
 html::-webkit-scrollbar-track {
-  background: rgb(202, 235, 202);
+  background: #e6ccff;
+  /* Lilás bem claro */
 }
+
 html::-webkit-scrollbar-thumb {
-  background: #066b04;
+  background: #8a2be2;
+  /* Azul violeta */
 }
 
 /* Navbar */
@@ -52,17 +59,20 @@ header {
   padding: 2rem 6%;
   height: 7.5rem;
   background: #fff;
-  box-shadow: 0 2px 6px rgba(146, 176, 146, 0.3);
+  box-shadow: 0 2px 6px rgba(179, 153, 255, 0.3);
+  /* Sombra lilás suave */
   z-index: 1000;
 }
 
 header .logo {
   font-size: 2.6rem;
   font-weight: 800;
-  color: #0b2e0e;
+  color: #4a148c;
+  /* Roxo mais fechado */
   display: flex;
   align-items: center;
 }
+
 header .logo i {
   font-size: 3rem;
   margin-right: 0.8rem;
@@ -72,16 +82,21 @@ header .navbar {
   display: flex;
   gap: 3rem;
 }
+
 header .navbar a {
   font-size: 1.9rem;
   font-weight: 600;
-  color: #0b2e0d;
+  color: #4a148c;
+  /* Roxo mais fechado */
   transition: 0.3s;
 }
+
 header .navbar a:hover,
 header .navbar a.active {
-  color: #02e825;
-  border-bottom: 3px solid #02d91b;
+  color: #a751eb;
+  /* Lilás vibrante */
+  border-bottom: 3px solid #a751eb;
+  /* Barra inferior lilás */
   padding-bottom: 0.4rem;
 }
 
@@ -89,7 +104,8 @@ header .navbar a.active {
 #menu {
   font-size: 3.4rem;
   cursor: pointer;
-  color: rgb(24, 2, 63);
+  color: #4a148c;
+  /* Roxo mais fechado */
   display: none;
 }
 
@@ -106,7 +122,8 @@ header .navbar a.active {
     width: 75%;
     height: 100%;
     flex-direction: column;
-    background: #0c330e;
+    background: #2e0854;
+    /* Roxo mais escuro */
     align-items: center;
     padding-top: 3rem;
     transition: 0.3s;
@@ -118,11 +135,13 @@ header .navbar a.active {
     padding: 2rem;
     font-size: 2.2rem;
     text-align: center;
-    color: #fff;
+    color: #f0f0f0;
+    /* Branco acinzentado */
   }
 
   header .navbar a:hover {
-    background: #027817;
+    background: #6a1b9a;
+    /* Roxo médio escuro */
   }
 
   header .navbar.active {
@@ -132,7 +151,8 @@ header .navbar a.active {
 
 /* Work Section */
 .work {
-  background: linear-gradient(to bottom, #033309, #012e09);
+  background: linear-gradient(to bottom, #330066, #4b0082);
+  /* Degradê de roxos escuros */
   margin-top: 7.5rem;
   padding: 4rem 6%;
   text-align: center;
@@ -166,7 +186,8 @@ header .navbar a.active {
 .work .button-group .btn:hover,
 .work .button-group .btn.is-checked {
   background: #fff;
-  color: #000;
+  color: #333;
+  /* Cinza escuro */
 }
 
 /* Grid responsivo */
@@ -181,7 +202,8 @@ header .navbar a.active {
   box-shadow: 0 8px 14px rgba(0, 0, 0, 0.3);
   overflow: hidden;
   height: 32rem;
-  background: #fff;
+  background: #f5f5f5;
+  /* Cinza claro */
   position: relative;
 }
 
@@ -225,12 +247,14 @@ header .navbar a.active {
   border-radius: 5px;
   font-size: 1.7rem;
   color: #fff;
-  background: #000;
+  background: #333;
+  /* Cinza escuro */
   transition: 0.3s;
 }
 
 .work .desc .btns .btn:hover {
-  background: #027817;
+  background: #6a1b9a;
+  /* Roxo médio escuro */
 }
 
 /* Botão de voltar */
@@ -252,7 +276,8 @@ header .navbar a.active {
 
 .backbtn .btn:hover {
   background: #fff;
-  color: #000;
+  color: #333;
+  /* Cinza escuro */
 }
 
 /* Botão de rolagem */
@@ -262,8 +287,10 @@ header .navbar a.active {
   right: 2rem;
   padding: 1.2rem 1.6rem;
   font-size: 2.4rem;
-  background: #ffae00;
-  color: rgb(13, 0, 44);
+  background: #a751eb;
+  /* Lilás vibrante */
+  color: #2e0854;
+  /* Roxo mais escuro */
   border-radius: 50%;
   display: none;
   z-index: 1000;
@@ -290,4 +317,3 @@ header .navbar a.active {
     grid-template-columns: 1fr;
   }
 }
-
