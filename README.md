@@ -41,3 +41,4 @@ Acredito no poder do **código limpo**, do **design funcional** e claro, de um b
 
 > *“A tecnologia move o mundo, mas o café move a tecnologia.” ☕*
 
+
